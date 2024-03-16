@@ -1,8 +1,9 @@
 {
-    "version": 2,
-    "build": {
-      "env": {
-        "BUILD_DIR": "react-ui"
-      }
+  "version": 2,
+  "builds": [
+    {
+      "src": "/react-ui", 
+      "use": "npm run vercel-build" 
     }
-  }
+  ]
+}
