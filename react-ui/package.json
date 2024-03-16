@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "dev-error": "tsc --noEmit --pretty --watch",
-    "vercel-build": "cross-env BUILD_DIR=react-ui && cd $BUILD_DIR && npm install && npm run build && cd .. && python server.py start_windows"
+    "vercel-build": "cross-env BUILD_DIR=react-ui && cd $BUILD_DIR && npm install && npm run build && npm start"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
