@@ -1,9 +1,10 @@
+
 {
   "version": 2,
   "builds": [
     {
-      "src": "/react-ui", 
-      "use": "npm run vercel-build" 
+      "src": "/react-ui",
+      "use": "./build-script.sh"
     }
   ]
 }
