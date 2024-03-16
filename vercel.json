@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "build": {
+      "env": {
+        "BUILD_DIR": "react-ui"
+      }
+    }
+  }
